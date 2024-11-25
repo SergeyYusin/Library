@@ -1,0 +1,1 @@
+(1, {'title': 'Qwe', 'author': 'Qwe', 'year': '123', 'status': 'в наличии'})

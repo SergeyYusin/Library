@@ -63,9 +63,7 @@ class Library:
             # проверяем все значения словаря на наличие вхождения в переданной переменной,
             # ищем в словаре совпадения и приводим строку к нижнему регистр.
             found_books = [book for book in self.data.values()  # записываем в переменную found_books найденную книгу
-                           if title_author_year.lower() in book.values()]
-            print(found_books)
-            print(title_author_year)
+                           if title_author_year in book.values()]
             if found_books:                 # если нашли совпадения
                 print('Найденные книги:')
                 for book in found_books:  # проходим по созданной переменной циклом for и выводим результат поиска по ключу
